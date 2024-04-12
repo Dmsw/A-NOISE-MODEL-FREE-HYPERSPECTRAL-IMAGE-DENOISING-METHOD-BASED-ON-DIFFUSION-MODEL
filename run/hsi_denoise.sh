@@ -1,0 +1,7 @@
+CUDA_VISIBLE_DEVICES=1 python ../scripts/hsi_denoise.py \
+ --base_samples "/home/root/dataset/cave/randga75/" \
+ --save_dir "../results/cave/randga75/" \
+ --model_config /home/root/ilvr/models/hsi256/model_config.yaml \
+ --in_channels 31 \
+ --range_t 0 \
+ --num_samples 3 
